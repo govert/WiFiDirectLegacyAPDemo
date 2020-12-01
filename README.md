@@ -1,6 +1,13 @@
 # WiFiDirectLegacyAPDemo
 This is a copy of the Windows sample that allows 'soft AP' support on Windows 10 through the WiFi Direct interfaces.
 
+## NOTE NOTE NOTE
+
+**Passphrase must be at least 8 characters !?**
+
+Otherwise you will get a message saying "Advertisement aborted, unknown reason"
+
+
 This means the driver need not have "Hosted networks supported" or "Soft AP" supported.
 The driver must support Wi-Fi Direct, as shown when running:
 `netsh wlan show wirelesscapabilities`
