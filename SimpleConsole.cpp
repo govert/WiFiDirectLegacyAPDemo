@@ -128,7 +128,7 @@ void SimpleConsole::ShowHelp()
         << "start             : Start the legacy AP to accept connections" << std::endl
         << "stop              : Stop the legacy AP" << std::endl
         << "ssid <ssid>       : Configure the SSID before starting the legacy AP" << std::endl
-        << "pass <passphrase> : Configure the passphrase before starting the legacy AP" << std::endl
+        << "pass <passphrase> : Configure the passphrase before starting the legacy AP (at least 8 characters)" << std::endl
         << "autoaccept <0|1>  : Configure the legacy AP to accept connections (default) or prompt the user" << std::endl
         << "quit|exit         : Exit" << std::endl
         << std::endl;
